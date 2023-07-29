@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".fragments.user.Profile">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <LinearLayout
+          android:padding="10dp"
+          android:background="@drawable/edt_main"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+         <LinearLayout
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/name"/>
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                />
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/email"/>
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="@string/name"/>
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/age"/>
+            <TextView
+                android:id="@+id/txtAge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                />
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/height"/>
+            <TextView
+                android:id="@+id/txtHeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                />
+
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/weight"/>
+            <TextView
+                android:id="@+id/txtWeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                />
+
+
+         </LinearLayout>
+
+      </LinearLayout>
+   </ScrollView>
+</FrameLayout>

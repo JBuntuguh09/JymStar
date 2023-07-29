@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "456195724653",
+    "firebase_url": "https://jymstar-20ced-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "jymstar-20ced",
+    "storage_bucket": "jymstar-20ced.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456195724653:android:43e072c194ff1373e87664",
+        "android_client_info": {
+          "package_name": "com.lonewolf.jymstar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456195724653-inq4bemju5kgk6c89ejtssivbq7j62s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmfoDY1oN4p-CCEitaX2TSxATxV-XEA00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456195724653-inq4bemju5kgk6c89ejtssivbq7j62s7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

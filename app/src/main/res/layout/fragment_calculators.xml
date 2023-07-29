@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.calculator.Calculators">
+
+    <androidx.cardview.widget.CardView
+        style="?android:borderlessButtonStyle"
+        android:id="@+id/cardBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:elevation="8dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="10dp"
+        card_view:cardPreventCornerOverlap="false"
+
+        card_view:layout_constraintEnd_toStartOf="@+id/cardBFI"
+        card_view:layout_constraintHorizontal_bias="0.5"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imgPicBmi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/assisted"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtPart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="BMI Calculator"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                card_view:layout_constraintTop_toBottomOf="@+id/imgPicBmi" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        card_view:layout_constraintEnd_toEndOf="@+id/cardBMI"
+        card_view:layout_constraintStart_toStartOf="@+id/cardBMI"
+        card_view:layout_constraintTop_toBottomOf="@+id/cardBMI" />
+
+    <androidx.cardview.widget.CardView
+        style="?android:borderlessButtonStyle"
+        android:id="@+id/cardBFI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:elevation="8dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="10dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintHorizontal_bias="0.5"
+        card_view:layout_constraintStart_toEndOf="@+id/cardBMI"
+        card_view:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imgPicBbfi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/assisted"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="BFI Calculator"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                card_view:layout_constraintTop_toBottomOf="@+id/imgPicBbfi" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        card_view:layout_constraintEnd_toEndOf="@+id/cardBFI"
+        card_view:layout_constraintStart_toStartOf="@+id/cardBFI"
+        card_view:layout_constraintTop_toBottomOf="@+id/cardBFI" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
